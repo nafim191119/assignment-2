@@ -1,0 +1,188 @@
+/* ------------------
+        font
+------------------ */
+@import url('https://fonts.googleapis.com/css2?family=Lobster&family=Open+Sans&family=Poppins:wght@500&family=Work+Sans:wght@100;200;300;700&display=swap');
+/* --------------------
+   Top overall area
+--------------------- */
+
+/* -----------------
+      navbar
+------------------ */
+* {
+    font-family: 'Work Sans';
+}
+
+header {
+    background-color: rgb(255, 249, 241);
+}
+
+.top-overall-area {
+    margin: 0px 100px;
+    padding: 30px 40px 0 40px;
+}
+
+.top-content {}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+}
+
+.menubar {
+    display: flex;
+    font-weight: 700;
+    align-items: center;
+    gap: 3em;
+}
+
+.menubar li {
+    list-style: none;
+}
+
+/* -----------------
+Top areas content
+-------------------*/
+.brand {
+    text-align: center;
+    margin-top: 40px;
+}
+
+.brand h1 {
+    font-weight: 800;
+}
+
+.brand p {
+    font-weight: 500;
+    font-size: 1em;
+}
+
+.btn {
+    width: 120px;
+    height: 40px;
+    border-radius: 5px;
+    color: white;
+    background-color: rgb(255, 145, 0);
+    font-weight: 700;
+    border: none;
+    margin-bottom: 30px;
+}
+
+.person img {
+    margin-bottom: 30px;
+}
+
+/* ------------------
+   Middle Content
+------------------ */
+.middle-overall-area {
+    margin: 0px 50px 80px 50px;
+    padding: 30px 30px 0 30px;
+}
+
+.contents {
+    display: flex;
+    justify-content: center;
+    text-align: left;
+    align-items: center;
+    gap: 40px;
+
+}
+
+.content-pic {
+    display: grid;
+    grid-template-columns: repeat(2, 2fr);
+    gap: 10px;
+}
+
+/* -------------------
+Middle Feature Banner 
+---------------------*/
+.experience {
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+    margin-bottom: 60px;
+}
+
+.title {
+    margin-bottom: 20px;
+}
+
+.sub-title {
+    border-radius: 5px;
+    box-shadow: 10px 3px 15px 5px rgb(225, 225, 225);
+    padding: 10px 10px;
+    margin-bottom: 15px;
+}
+
+/* .overwrite{
+    color: rgb(255, 255, 255);
+    background-color: rgb(255, 136, 0);
+    width: 150px;
+    height: 100px;
+    text-align: center;
+    padding: 5px 5px 5px 5px;
+    border-radius: 5px;
+} */
+
+
+/*-------------------
+         Facts
+------------------- */
+
+.facts {
+    margin-bottom: 50px;
+}
+
+
+/*------------------
+  Performence Box
+  ----------------- */
+
+
+
+.performence-box{
+    display: flex;
+    justify-content: space-evenly;
+    margin-bottom: 200px;
+}
+.performence {
+    /* text-align: center;
+    align-items: center; */
+    border: 1px solid rgb(255, 149, 0);
+    border-radius: 5px;
+    width: 150px;
+    height: 150px;
+}
+.inside-performence{
+    text-align: center;
+    padding: 15px 15px ;
+}
+
+/* -------------
+    sponsor
+------------- */
+
+.sponsor-box{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 100px;
+}
+.sponsors{
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+/* ----------------
+     Copyright
+----------------- */
+
+.copy-right{
+    color: rgb(0, 0, 0);
+    text-align: center;
+    background-color: rgb(255, 222, 235);
+    height: 50px;
+    font-weight: 400;
+    font-size: 1em;
+}
