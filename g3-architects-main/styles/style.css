@@ -221,9 +221,9 @@ Bonus point Responsive Mobile
 ------------------------------ */
 
 @media screen and (max-width:576px) {
-    .top-overall-area {
+    header .top-overall-area {
         margin: 0;
-        padding: 30px;
+        padding: 0 5px;
     }
 
     nav h2 {
@@ -233,9 +233,16 @@ Bonus point Responsive Mobile
     nav {
         flex-direction: column;
     }
-    .middle-overall-area{
+    .person img{
+        width: 100%;
+    }
+    main .middle-overall-area{
         margin: 0;
-        padding: 30px;
+        padding: 0 5px;
+    }
+    .intro-person img{
+        width: 100%;
+        height: 100%;
     }
     .contents {
         flex-direction: column-reverse;
