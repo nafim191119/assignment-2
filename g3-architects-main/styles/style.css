@@ -43,6 +43,7 @@ nav {
 /* -----------------
 Top areas content
 -------------------*/
+
 .brand {
     text-align: center;
     margin-top: 40px;
@@ -70,11 +71,13 @@ Top areas content
 
 .person img {
     margin-bottom: 30px;
+    width: 100%;
 }
 
 /* ------------------
    Middle Content
 ------------------ */
+
 .middle-overall-area {
     margin: 0px 50px 80px 50px;
     padding: 30px 30px 0 30px;
@@ -98,6 +101,7 @@ Top areas content
 /* -------------------
 Middle Feature Banner 
 ---------------------*/
+
 .experience {
     display: flex;
     justify-content: space-between;
@@ -116,7 +120,9 @@ Middle Feature Banner
     margin-bottom: 15px;
 }
 
-/* .overwrite{
+
+
+.overwrite{
     color: rgb(255, 255, 255);
     background-color: rgb(255, 136, 0);
     width: 150px;
@@ -124,7 +130,7 @@ Middle Feature Banner
     text-align: center;
     padding: 5px 5px 5px 5px;
     border-radius: 5px;
-} */
+}
 
 
 /*-------------------
@@ -185,4 +191,12 @@ Middle Feature Banner
     height: 50px;
     font-weight: 400;
     font-size: 1em;
+}
+
+/* -----------------------------
+Bonus point Responsive Mobile
+------------------------------ */
+
+@media screen and (max-width: ) {
+    
 }
