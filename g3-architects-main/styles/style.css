@@ -1,7 +1,9 @@
 /* ------------------
         font
 ------------------ */
+
 @import url('https://fonts.googleapis.com/css2?family=Lobster&family=Open+Sans&family=Poppins:wght@500&family=Work+Sans:wght@100;200;300;700&display=swap');
+
 /* --------------------
    Top overall area
 --------------------- */
@@ -9,6 +11,7 @@
 /* -----------------
       navbar
 ------------------ */
+
 * {
     font-family: 'Work Sans';
 }
@@ -21,8 +24,6 @@ header {
     margin: 0px 100px;
     padding: 30px 40px 0 40px;
 }
-
-.top-content {}
 
 nav {
     display: flex;
@@ -102,6 +103,15 @@ Top areas content
 Middle Feature Banner 
 ---------------------*/
 
+.quick-list{
+    color: #727272;
+    /* font-size: 1.5em; */
+    font-weight: 700;
+}
+.feature{
+    color: #FF900E;
+}
+
 .experience {
     display: flex;
     justify-content: space-between;
@@ -120,7 +130,9 @@ Middle Feature Banner
     margin-bottom: 15px;
 }
 
-
+.building img{
+    width: 100%;
+}
 
 .overwrite{
     color: rgb(255, 255, 255);
@@ -143,17 +155,15 @@ Middle Feature Banner
 
 
 /*------------------
-  Performence Box
+  Performance Box
   ----------------- */
 
-
-
-.performence-box{
+.performance-box{
     display: flex;
     justify-content: space-evenly;
     margin-bottom: 200px;
 }
-.performence {
+.performance {
     /* text-align: center;
     align-items: center; */
     border: 1px solid rgb(255, 149, 0);
@@ -161,9 +171,15 @@ Middle Feature Banner
     width: 150px;
     height: 150px;
 }
-.inside-performence{
+
+.inside-performance{
     text-align: center;
     padding: 15px 15px ;
+}
+
+.gear{
+    width: 10px;
+    height: 10px;
 }
 
 /* -------------
@@ -179,6 +195,9 @@ Middle Feature Banner
     text-align: center;
     margin-bottom: 40px;
 }
+.sponsor-box img{
+    filter: grayscale(100%);
+}
 
 /* ----------------
      Copyright
@@ -188,7 +207,7 @@ Middle Feature Banner
     color: rgb(0, 0, 0);
     text-align: center;
     background-color: rgb(255, 222, 235);
-    height: 50px;
+    height: 80px;
     font-weight: 400;
     font-size: 1em;
 }
@@ -197,6 +216,6 @@ Middle Feature Banner
 Bonus point Responsive Mobile
 ------------------------------ */
 
-@media screen and (max-width: ) {
+@media screen and (max-width:567) {
     
 }
